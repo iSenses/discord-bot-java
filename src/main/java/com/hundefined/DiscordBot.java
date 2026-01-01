@@ -13,6 +13,7 @@ import org.slf4j.LoggerFactory;
 import java.util.EnumSet;
 
 public class DiscordBot {
+    System.out.println("Starting Bot");
     private static final Logger logger = LoggerFactory.getLogger(DiscordBot.class);
     private static JDA jda;
 
